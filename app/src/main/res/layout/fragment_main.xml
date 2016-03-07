@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ozankyncu.json.MainActivityFragment"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parse"
+        android:id="@+id/btn_parse"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="İsim"
+        android:id="@+id/txt_isim"
+        android:layout_below="@+id/btn_parse"
+        android:layout_alignStart="@+id/btn_parse"
+        android:layout_marginTop="57dp" android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Yas"
+        android:id="@+id/txt_yas"
+        android:layout_below="@+id/txt_isim"
+        android:layout_alignStart="@+id/txt_isim"
+        android:layout_marginTop="46dp"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Arkadaşının İsmi"
+        android:textColor="#000"
+        android:id="@+id/txt_aisim"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/txt_yas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Arkadaşının yaşı"
+        android:id="@+id/txt_ayas"
+        android:layout_below="@+id/txt_aisim"
+        android:layout_alignStart="@+id/txt_aisim"
+        android:layout_marginTop="50dp"
+        android:textColor="#000"/>
+
+</RelativeLayout>
